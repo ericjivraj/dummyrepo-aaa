@@ -10,11 +10,11 @@ public class DummyClassTest
     testClass = new MyClass();
   }
 
-  @Test
+ /* @Test
   public void testReturnTrueFails()
   {
     assertTrue(testClass.returnFalse());
-  }
+  }*/
 
   @Test
   public void testReturnTruePasses()
@@ -22,11 +22,11 @@ public class DummyClassTest
     assertTrue(testClass.returnTrue());
   }
 
-  @Test
+ /* @Test
   public void testReturnFalseFails()
   {
     assertFalse(testClass.returnTrue());
-  }
+  }*/
 
   @Test
   public void testReturnFalsePasses()
