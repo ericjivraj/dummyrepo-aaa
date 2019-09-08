@@ -10,11 +10,11 @@ public class DummyClassTest
     testClass = new MyClass();
   }
 
- /* @Test
+  @Test
   public void testReturnTrueFails()
   {
     assertTrue(testClass.returnFalse());
-  }*/
+  }
 
   @Test
   public void testReturnTruePasses()
@@ -44,11 +44,6 @@ public class DummyClassTest
     public boolean returnFalse()
     {
       return false;
-    }
-
-    public void doNothing()
-    {
-      // DO NOTHING OK CMON G SKSKSK MAN PLEASE NANANANA WO WO WO
     }
   }
 }
