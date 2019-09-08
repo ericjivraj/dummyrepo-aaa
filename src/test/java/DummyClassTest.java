@@ -48,7 +48,7 @@ public class DummyClassTest
 
     public void doNothing()
     {
-      // DO NOTHING OK CMON G SKSKSK
+      // DO NOTHING OK CMON G SKSKSK MAN PLEASE
     }
   }
 }
