@@ -48,7 +48,7 @@ public class DummyClassTest
 
     public void doNothing()
     {
-      // DO NOTHING
+      // DO NOTHING OK
     }
   }
 }
