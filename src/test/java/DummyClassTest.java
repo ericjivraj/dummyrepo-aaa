@@ -41,8 +41,6 @@ public class DummyClassTest
       return true;
     }
 
-    // Something
-
     public boolean returnFalse()
     {
       return false;
