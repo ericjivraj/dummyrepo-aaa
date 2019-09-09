@@ -41,7 +41,7 @@ public class DummyClassTest
       return true;
     }
 
-    // NOTHING
+    // NOTHING 1
 
     public boolean returnFalse()
     {
