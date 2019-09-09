@@ -48,4 +48,7 @@ public class DummyClassTest
       return false;
     }
   }
+
+  // NO CONFLICT PLS
+
 }
