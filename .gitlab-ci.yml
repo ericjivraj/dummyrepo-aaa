@@ -6,4 +6,4 @@ build:
 
 test:
   stage: test
-  script: "mvn clean install"
+  script: "mvn test -B"
