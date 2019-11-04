@@ -1,16 +1,7 @@
-image: java:latest
-
-stages:
-  - build
-  - execute
+image: maven:3-jdk-8
 
 build:
-  stage: build
-  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/javac ./*.java
-  artifacts:
-    paths:
-     - ./*.java
+  script: "mvn clean install -DskipTests"
 
-execute:
-  stage: execute
-  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/java ./*.java
+test:
+  script: "mvn clean install"
