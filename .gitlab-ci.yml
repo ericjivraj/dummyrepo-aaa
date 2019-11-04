@@ -6,11 +6,11 @@ stages:
 
 build:
   stage: build
-  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/javac ./src/main/java/DummyClass.java
+  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/javac ./*.java
   artifacts:
     paths:
-     - DummyClass.*
+     - ./*.java
 
 execute:
   stage: execute
-  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/java DummyClass
+  script: /usr/lib/jvm/java-8-openjdk-amd64/bin/java ./*.java
