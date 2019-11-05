@@ -8,4 +8,6 @@ test:
   stage: test
   script: "mvn test -B"
 
-  #NEED TO INVESTIGATE THIS FURTHER
+stages:
+  - build
+  - test
