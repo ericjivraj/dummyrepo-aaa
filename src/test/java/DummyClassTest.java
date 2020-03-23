@@ -41,7 +41,7 @@ public class DummyClassTest
       return true;
     }
 
-    // NOTHING 1ssss WWEEEEEEEE
+    // Change
 
     public boolean returnFalse()
     {
