@@ -13,7 +13,7 @@ public class DummyClassTest
   @Test
   public void testReturnTrueFails()
   {
-    assertTrue(testClass.returnFalse());
+    assertTrue(testClass.returnTrue());
   }
 
   @Test
@@ -25,7 +25,7 @@ public class DummyClassTest
   @Test
   public void testReturnFalseFails()
   {
-    assertFalse(testClass.returnTrue());
+    assertFalse(testClass.returnFalse());
   }
 
   @Test
