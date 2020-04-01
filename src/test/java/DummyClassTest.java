@@ -11,25 +11,25 @@ public class DummyClassTest
   }
 
   @Test
-  public void testReturnTrueFails()
+  public void testThatReturnTrueFails()
+  {
+    assertTrue(testClass.returnFalse());
+  }
+
+  @Test
+  public void testThatReturnTruePasses()
   {
     assertTrue(testClass.returnTrue());
   }
 
   @Test
-  public void testReturnTruePasses()
+  public void testThatReturnFalseFails()
   {
-    assertTrue(testClass.returnTrue());
+    assertFalse(testClass.returnTrue());
   }
 
   @Test
-  public void testReturnFalseFails()
-  {
-    assertFalse(testClass.returnFalse());
-  }
-
-  @Test
-  public void testReturnFalsePasses()
+  public void testThatReturnFalsePasses()
   {
     assertFalse(testClass.returnFalse());
   }
@@ -40,8 +40,6 @@ public class DummyClassTest
     {
       return true;
     }
-
-    // Change
 
     public boolean returnFalse()
     {
