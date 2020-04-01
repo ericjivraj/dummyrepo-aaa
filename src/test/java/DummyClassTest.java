@@ -38,7 +38,7 @@ public class DummyClassTest
   {
     public boolean returnTrue()
     {
-      return true;
+      return false;
     }
 
     public boolean returnFalse()
