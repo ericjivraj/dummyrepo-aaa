@@ -13,6 +13,8 @@ public class DummyClassTest
   @Test
   public void testThatReturnTrueFails()
   {
+    assertTrue(testClass.returnTrue());
+    assertFalse(testClass.returnFalse());
     assertEquals(null, testClass.returnFalse());
   }
 
