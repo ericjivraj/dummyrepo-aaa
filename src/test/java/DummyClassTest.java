@@ -13,7 +13,7 @@ public class DummyClassTest
   @Test
   public void testThatReturnTrueFails()
   {
-    assertTrue(testClass.returnFalse());
+    throw new NullPointerException();
   }
 
   @Test
