@@ -13,7 +13,7 @@ public class DummyClassTest
   @Test
   public void EricTrueFails()
   {
-    //assertTrue(testClass.returnFalse());
+    throw new NullPointerException();
   }
 
   @Test
@@ -25,7 +25,7 @@ public class DummyClassTest
   @Test
   public void EricFalseFails()
   {
-    //assertFalse(testClass.returnTrue());
+    assertFalse(testClass.returnTrue());
   }
 
   @Test
