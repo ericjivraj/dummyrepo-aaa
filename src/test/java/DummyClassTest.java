@@ -46,6 +46,4 @@ public class DummyClassTest
       return false;
     }
   }
-
-  // something
 }
