@@ -11,25 +11,25 @@ public class DummyClassTest
   }
 
   @Test
-  public void EricTrueFails()
+  public void AntonioTrueFails()
   {
     //assertTrue(testClass.returnFalse());
   }
 
   @Test
-  public void EricTruePasses()
+  public void AntonioTruePasses()
   {
     assertTrue(testClass.returnTrue());
   }
 
   @Test
-  public void EricFalseFails()
+  public void AntonioFalseFails()
   {
     //assertFalse(testClass.returnTrue());
   }
 
   @Test
-  public void EricFalsePasses()
+  public void AntonioFalsePasses()
   {
     assertFalse(testClass.returnFalse());
   }
